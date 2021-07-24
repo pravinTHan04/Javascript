@@ -1,0 +1,22 @@
+<html>  
+<center>  
+<h3 style="color:green"> splice() method </h3>  
+<script>   
+    var seriesList = ["Sherlock", " Harry Potter", " Games of Throne"];   
+    document.write("<b> Initially elements in array: </b>" + seriesList + "<br>");  
+    
+    function addObject() {   
+      //add new elementin list array        
+      seriesList.splice(2, 0, document.getElementById(x));   
+      document.getElementById("result").innerHTML = "<b> Array after adding new elements: </b> </br>" + seriesList;  
+    }   
+</script>   
+  
+<body>  
+<h3> Click the button to add three more elements to the array </h3>  
+<button onclick="addObject()"> Add Elements </button>  
+<input type="text" id="x"></input>
+<h4 id="result"> </h4>  
+</body>     
+</center>  
+</html>  

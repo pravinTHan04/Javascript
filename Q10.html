@@ -1,0 +1,39 @@
+<html>
+	<head>
+    </head>
+
+
+		<script>
+
+            function color()
+            {
+             var cl = document.getElementById("m").value;
+                
+             if(cl>0 && cl<10)
+             {
+                 window.alert("Blue");
+             }
+             else if(cl>10 && cl<20)
+             {
+                 window.alert("Red")
+             }
+             else if(cl>20 && cl<30)
+             {
+                 window.alert("Green");
+             }
+             else
+             {
+                 window.alert("It is not a correct color option")
+             }
+
+            }
+		</script>
+
+
+<body>
+    Enter number: <input type="text" id="m"></input>
+
+    <button onclick="color()">OK</button>
+</body>
+	
+</html>

@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<script>
+			function Greatest()
+			{
+				
+				var num1 = document.getElementById("a").value;
+				var num2 = document.getElementById("b").value;
+
+				if(num1>num2)
+				{
+					window.alert("The greatest number is " + num1);
+				}
+				else
+				{
+					window.alert("The greatest number is " + num2);
+				}
+			}
+		</script>
+	</head>
+	<body>
+		Enter number 1: <input type="text" id="a"></input><br>
+		Enter number 2: <input type="text" id="b"></input><br>
+		<button onclick="Greatest()">OK</button>
+	</body>
+</html>

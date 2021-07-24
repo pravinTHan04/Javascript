@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display a dialog box which will ask for your favorite drink.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var text;
+  var num = prompt("Enter number");
+  switch(num) {
+    case "1":
+      text = "Janauary";
+      break;
+    case "2":
+      text = "February";
+      break;
+    case "3":
+      text = "March";
+      break;
+      case "4":
+      text = "April";
+      break;
+      case "5":
+      text = "May";
+      break;
+      case "6":
+      text = "June";
+      break;
+      case "7":
+      text = "July";
+      break;
+      case "8":
+      text = "Auguest";
+      break;
+      case "9":
+      text = "September";
+      break;
+      case "10":
+      text = "October";
+      break;
+      case "11":
+      text = "November";
+      break;
+      case "12":
+      text = "December";
+      break;
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<script>
+    function assignGrade()
+      {
+        var marks = document.getElementById("m").value;
+     
+     if(marks>=75)
+     {
+        window.alert("A");
+     }
+     else if(marks>=60 && marks<75)
+     {
+        window.alert("B");
+     }
+     else if(marks>=45 && marks<60)
+     {
+         window.alert("C")
+     }
+     else
+     {
+         window.alert("F")
+     }
+    }
+</script>
+<body>
+    Enter number: <input type="text" id="m"></input>
+
+    <button onclick="assignGrade()">OK</button>
+
+</body>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <script type="text/javascript">
+        function Multiply() {
+	        var a = document.getElementById("Len").value;
+            var b = document.getElementById("Wid").value;
+            var c = document.getElementById("Hei").value;
+            var result = a * b *c;
+            alert(result);
+        }
+    </script>
+   
+    Enter Length:
+    <input type="text" id="Len" name="radius" />
+    <br>
+    Enter Width:
+    <input type="text" id="Wid" name="radius" />
+    <br>
+    Enter Height:
+    <input type="text" id="Hei" name="radius" />
+    <br>
+    <input type="button" name="btnMultiply" value="calculate" onclick="Multiply()" />
+    
+</body>
+</html>
